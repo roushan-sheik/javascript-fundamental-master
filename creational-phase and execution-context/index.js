@@ -23,5 +23,4 @@ console.log(c);
 //* print printName() clg()
 //* print b = undefined // এটাতে value assign করার আগেই print হয়েছে।
 //* print c = "Green Tea"
-
 //! Roushan Sheik
