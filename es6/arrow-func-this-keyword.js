@@ -16,9 +16,10 @@ obj.print();
 let obj2 = {
   named: "Arifa Moni",
   print: function () {
-    let self = this;
-    setTimeout(function () {
-      console.log("Name is ", self.named);
+    // let self = this;
+    // setTimeout(function () {
+    setTimeout(() => {
+      console.log("Name is ", this.named);
     }, 1000);
   },
 };
