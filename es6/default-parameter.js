@@ -4,7 +4,7 @@ function Sum(a = 5, b = 10) {
 }
 Sum();
 // If we use default parameter we cannot provide ( null)
-// as a parameter this is throw an error.
+// as an argument this will throw an error.
 function greet(name = "Tasmiya", msg = "Hello") {
   console.log(msg, name);
   console.log(name.length);
