@@ -18,9 +18,12 @@ let obj2 = {
   print: function () {
     // let self = this;
     // setTimeout(function () {
-    setTimeout(() => {
-      console.log("Name is ", this.named);
-    }, 1000);
+    setTimeout(
+      function () {
+        console.log("Name is ", this.named);
+      }.bind(this),
+      1000
+    );
   },
 };
 
